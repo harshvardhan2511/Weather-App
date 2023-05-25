@@ -7,7 +7,7 @@ import axios from 'axios';
 import { IoMdSunny, IoMdRainy, IoMdCloudy, IoMdSnow, IoMdThunderstorm, IoMdSearch } from
   'react-icons/io'
 
-import { BsCloudHaze2Fill, BsCloudDrizzleFill, BsEye, BsWater, BsThermometer, BsWind, BsSnow } from
+import { BsCloudHaze2Fill, BsCloudDrizzleFill, BsEye, BsWater, BsThermometer, BsWind } from
   'react-icons/bs'
 
 import { TbTemperatureCelsius } from 'react-icons/tb'
