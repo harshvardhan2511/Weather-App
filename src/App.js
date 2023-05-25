@@ -132,7 +132,7 @@ const App = () => {
 
   return <div className='w-full h-screen bg-gradientBg bg-no-repeat bg-cover bg-center flex flex-col items-center justify-center px-4 lg:px-0'>
 
-    {errorMsg && <div className='w-full max-w-[90vw] lg:max-w-[450px] bg-[#ff208c] text-white absolute top-2  lg:top-10 p-4 capitalize rounded-md'>{`${errorMsg.response.data.message}`} </div>}
+    {errorMsg && <div className='w-full max-w-[90vw] lg:max-w-[450px] bg-[#ff208c] text-white absolute top-2  lg:top-10 p-4 capitalize rounded-md z-10'>{`${errorMsg.response.data.message}`} </div>}
 
     {/* form */}
     <form className= {`${animate ? 'animate-shake' : 'animate-none'} h-16 bg-purple-50/20 w-full max-w-[450px] rounded-full backdrop-blur-[32px] mb-8`}>
